@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bootstrap Theme</title>
+<link href="img/favicon.ico" rel="icon">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+    
+	<header class="header-area_">
+		<div class="container">
+			
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  
+				<a class="navbar-brand" href="index.html"><img src="img/logo2.png" class="img-fluid" alt="logo"></a>
+				
+				
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav ml-auto">
+					 <li class="nav-item">
+					<a class="nav-link sr-only" href="#top">Home</a>
+				  </li>
+					<li class="nav-item">
+					<a class="nav-link" href="#features">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#features">About</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#pricing">Shop</a>
+				  </li>
+				</ul>
+				 <ul class="navbar-nav ml-auto">
+				  <li class="nav-item">
+					<a class="nav-link btn btn-default" href="#"><b>Shop Up</b></a>
+				  </li>
+				</ul>
+
+			  </div>
+			</nav>
+			
+		</div>
+	</header>
+	<section id="always">
+		<div class="container">
+			<h1 class="titulo">Always in Motion</h1>
+			<h6>Lorem ipsum dolor sit amet</h6>
+			
+			<div class="row">
+			<article class="col-md-4 col-sm-12">
+				<a href="#" class="btn btn-default">Shop Men</a>
+				</article>
+				<article class="col-md-4 col-sm-12">
+				<a href="#" class="btn btn-default">Shop Women</a>
+				</article>		
+			</div>
+	    </div>
+	
+	</section>
+	
+	<section id="cards">
+		<div class="container">
+			<div class="row">
+				<article class="col-md-4 col-sm-12">
+					<img src="img/men-running.jpg">
+				</article>
+				<article class="col-md-4 col-sm-12">
+					<img src="img/women-runnig.jpg">
+				</article>
+				<article class="col-md-4 col-sm-12">
+				    <img src="img/service-1-370x330.jpg">
+				</article>			
+			</div>		
+		</div>
+	</section>
+	<section id="tarjeta">
+		<div class="container">
+			<h2 class="titulo">Featured Products</h2>
+			<div class="row">
+				
+				<article class="col-md-3 col-sm-6 col-xs-12 tarjeta1">
+					<img src="img/product-radio.jpg" width="200px" height="200px">
+					<h5>Radio+Cardio Pro Smart Watch</h5>
+					<h4 class="price">$249.99</h4>
+					<br>
+					<a href="#" class="btn btn-default">Buy Now</a>
+				</article>
+				
+					<article class="col-md-3 col-sm-6 col-xs-12 tarjeta1">
+					<img src="img/product-bottle.jpg" width="200px" height="200px">
+					<h5>Plastic water bottle for water</h5>
+					<h4 class="price">$16.99</h4>
+					<br>
+					<a href="#" class="btn btn-default">Buy Now</a>
+				</article>
+					<article class="col-md-3 col-sm-6 col-xs-12 tarjeta1">
+					<img src="img/product-gloves.jpg" width="200px" height="200px">
+					<h5>Thermal runnning gloves</h5>
+					<h4 class="price">$5.00</h4>
+					<br>
+					<a href="#" class="btn btn-default">Buy Now</a>
+				</article>
+					<article class="col-md-3 col-sm-6 col-xs-12 tarjeta1">
+					<img src="img/product-waistpack.jpg" width="200px" height="200px">
+					<h5>Compact Running Waistpack</h5>
+					<h4 class="price">$5.00</h4>
+					<br>
+					<a href="#" class="btn btn-default">Buy Now</a>
+				</article>
+			</div>		
+		</div>
+	</section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</section>
+	
+	
+	
+	
+	
+	
+	
+	
+
+    
+
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.nav.js"></script>
+    <script>
+		$(function() {
+			$(window).on('scroll', function () {
+				if ($(window).scrollTop() > 48) {
+					$('.header-area').addClass('sticky slideInDown');
+				} else {
+					$('.header-area').removeClass('sticky slideInDown');
+				}
+			});
+			
+			$('#navbar').onePageNav({
+				currentClass: 'active',
+				scrollSpeed: 1000,
+				easing: 'easeOutQuad'
+        	});
+	</script>
+</body>
+
+</html>

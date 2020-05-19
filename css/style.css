@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #898989;
+}
+:root{
+--azul: #41c1fe;
+--fondooscuro: #383838;
+--fondogris: #f3f3f3;
+--titulos: #3c3838;
+--subtitulo: #888585;
+--textogeneral: #898989;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	
+}
+
+.btn-default{
+	letter-spacing: 2px;
+	color: #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: var(--azul);
+	padding: 10px 20px;
+	border-radius: 20px;
+	font-size: 13px;
+	padding: 10px 20px;
+	font-family:"Oswald", sans-serif;
+}
+.btn-default:hover{
+	transform: scale(0.9);
+	transition: all 0.3s ease-in-out;
+	background-color:#727272;
+}
+#always{
+	background-image: url("../img/slider1_slide2.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: top;
+	padding:15%;
+	align-content: center;
+	text-align: center;
+}
+.titulo{
+	font-family:'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 70px;
+	color: #FFFFFF;
+}
+#always .row{
+	align-content: center;
+	margin-left:25%;
+	margin-top: 5%;
+}
+#always h6{
+	margin-bottom: 30px;
+}
+#cards{
+	background-color: var(--fondogris);
+}
+#cards img{
+	margin:30px 0 0 0;
+}
+#tarjeta{
+	text-align: center;
+	background-color: var(--fondogris);
+	padding: 40px;
+}
+.tarjeta h5{
+	color: var(--azul);
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.tarjeta h4{
+	font-size: 18px;
+	font-weight: 400;
+}
+h4.price{
+	color:var(--rosado);
+	font-size: 50px;
+	font-weight: 500;
+	margin-top: 30px;
+}
+.tarjeta1{
+	background-color: #fff;
+}
+
+
+
+
